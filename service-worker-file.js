@@ -1,8 +1,8 @@
 const CACHE_NAME = 'social-curator-v1.0.0';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/manifest.json',
+  './',
+  './index.html',
+  './manifest.json',
   'https://cdn.tailwindcss.com/3.3.0'
 ];
 
