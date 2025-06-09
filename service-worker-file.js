@@ -48,7 +48,7 @@ self.addEventListener('fetch', (event) => {
         }).catch(() => {
           // If fetch fails, try to serve a basic offline page
           if (event.request.destination === 'document') {
-            return caches.match('/index.html');
+            return caches.match('./index.html');
           }
         });
       })
