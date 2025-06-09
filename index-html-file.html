@@ -385,7 +385,7 @@
 
         // Service Worker Registration
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('sw.js')
+            navigator.serviceWorker.register('service-worker-file.js')
                 .then(() => console.log('SW registered'))
                 .catch(() => console.log('SW registration failed'));
         }
